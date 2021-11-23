@@ -1,0 +1,71 @@
+<html>
+
+ <head> 
+
+  <link rel="stylesheet" type="text/css" href="/static/style.css"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>EU.org</title> 
+
+ </head> 
+
+ <body> 
+
+  <nav class="main"> 
+
+   <a href="/arf/en/">Login</a> 
+
+  </nav> 
+
+  <hr> 
+
+  <form class="form" id="id_loginform" action="" method="POST"> 
+
+   <input type="hidden" name="csrfmiddlewaretoken" value="k7USOCw5Ab7rcmGKh4ATSzGO4MX1emnyKE2mYRQrzo1xRRk36eVbPnQypqfO6Hfg"> 
+
+   <div> 
+
+    <label for="id_handle">Handle</label> 
+
+    <input id="id_handle" maxlength="15" name="handle" type="text" value="-FREE"> 
+
+    <span class="helptext">Your handle</span> 
+
+   </div> 
+
+   <div> 
+
+    <label for="id_password">Password</label>
+
+    <input id="id_password" maxlength="30" name="password" type="password"> 
+
+    <span class="helptext">Your password</span> 
+
+   </div> 
+
+   <input type="hidden" name="next" value="/arf/en/"> 
+
+   <input class="action" type="submit" name="login" value="Login"> 
+
+  </form> 
+
+  <a class="action" href="/arf/en/contact/create/"><span>Register</span></a> 
+
+  <div class="loginhelp"> 
+
+   <strong>You can't remember the contact handle or password?</strong> 
+
+   <ul> 
+
+    <li>If you forgot your password or never had one, <a href="/arf/en/contact/reset/">set a new password here</a>. </li>
+
+    <li>If you remember your domain name, you can <a href="/arf/en/contact/bydom">find your contact handle</a>. </li>
+
+   </ul> 
+
+  </div> 
+
+ </body>
+
+</html>
